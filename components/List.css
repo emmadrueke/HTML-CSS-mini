@@ -1,0 +1,11 @@
+.List {
+    list-style-type: none;
+}
+
+.List--horizontal .List__item {
+    display: block;
+}
+
+.List__item {
+    padding-bottom: 5px;
+}
