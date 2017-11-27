@@ -1,18 +1,16 @@
 .Section {
-    box-sizing: border-box;
-    display: inline-block;
-    padding: 20px;
-}
-
-.Section--full {
-    width: 100%;
-    text-align: center;
-    background: pink;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: plum;
+    padding: 5px;
+    
 }
 
 .Section--half {
-    width: 50%;
-    background-color: palevioletred;
-    border: 2px solid purple;
+   display: inline-flex;
+   flex-flow: row wrap;
+   justify-content: space-evenly;
+   width: 50%;
+   background: pink;
+   margin: auto;
 }
