@@ -3,14 +3,24 @@
     justify-content: center;
     background: plum;
     padding: 5px;
+    border: 5px solid purple;
     
 }
 
 .Section--half {
    display: inline-flex;
    flex-flow: row wrap;
-   justify-content: space-evenly;
-   width: 50%;
+   flex-direction: column;
+   justify-content: space-around;
    background: pink;
    margin: auto;
+   width: 50%;
+   border-bottom: 5px solid plum;
+   /* border: 2px solid purple; */
 }
+.Sectioin__flag {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
